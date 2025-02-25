@@ -38,7 +38,7 @@ public class AppointmentController {
         return result;
     }
 
-    /** 진료 예약 목록 조회 */
+    /** 날짜별 예약 목록 조회 */
     @GetMapping("/appointment/date")
     public List<AppointmentDto> _findDate(@RequestParam(name="date") String appointmentdate) {
         System.out.println(">> AppointmentController._findAll start");

@@ -20,7 +20,7 @@ public interface AppointmentMapper {
     @Select("select * from appointment")
     List<AppointmentDto> _findAll();
 
-    /** 진료 예약 목록 조회 */
+    /** 날짜별 예약 목록 조회 */
     @Select("select * from appointment where appointmentdate = #{appointmentdate}")
     List<AppointmentDto> _findDate(String appointmentdate);
 
