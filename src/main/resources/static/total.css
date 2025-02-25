@@ -1,0 +1,22 @@
+/* 공용 시작 */
+.wrap {
+    height : 100vh;
+    display : flex;
+}
+
+.header {
+    height : 100%;
+}
+
+.content {
+    padding : 30px;
+    width : 100%;
+    height : 100%;
+}
+/* 공용 끝 */
+
+/* 예약 관리 시작 */
+
+
+
+/* 예약 관리 끝 */
